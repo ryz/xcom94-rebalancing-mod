@@ -1,0 +1,6 @@
+name: "Rebalanced Soldier Stats (UFO)"
+version: "1.0"
+author: "ryz"
+description: "Soldiers roll slightly higher minimum stats. The range is smaller, stats are less random. Less sacking of unsuitable soldiers."
+id: RebalancedSoldierStatsUFO
+master: xcom1

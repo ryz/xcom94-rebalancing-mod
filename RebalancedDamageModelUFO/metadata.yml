@@ -1,0 +1,6 @@
+name: "Rebalanced Damage Model"
+version: "1.0"
+author: "ryz"
+description: "Direct-fire weapons do 75-125% of their damage instead of 0-200%."
+id: RebalancedDamageModelUFO
+master: xcom1

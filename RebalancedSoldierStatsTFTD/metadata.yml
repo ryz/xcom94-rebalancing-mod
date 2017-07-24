@@ -1,0 +1,6 @@
+name: "Rebalanced Aquanaut Stats (TFTD)"
+version: "1.0"
+author: "ryz"
+description: "Aquanauts roll slightly higher minimum stats. The range is smaller, stats are less random. Less sacking of unsuitable aquanauts."
+id: RebalancedSoldierStatsTFTD
+master: xcom2
