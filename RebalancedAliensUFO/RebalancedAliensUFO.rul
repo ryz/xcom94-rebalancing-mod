@@ -1,0 +1,86 @@
+items:
+  - type: STR_PLASMA_RIFLE_SECTOID # Modified, SECTOID only plasma rifle.
+    #    requires:
+    #      - STR_PLASMA_RIFLE
+    size: 0.2
+    costSell: 126500
+    weight: 5
+    bigSprite: 31
+    floorSprite: 30
+    handSprite: 48
+    bulletSprite: 8
+    fireSound: 18
+    #compatibleAmmo: # If none are specified, the weapon doesn't need ammo.
+    #  - STR_PLASMA_RIFLE_CLIP
+    accuracyAuto: 55
+    accuracySnap: 86
+    accuracyAimed: 100
+    power: 20
+    tuAuto: 36
+    tuSnap: 30
+    tuAimed: 60
+    damageType: 5 # plasma
+    battleType: 1
+    fixedWeapon: true # glued to a unit
+    clipSize: -1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    recover: false
+units:
+  - type: STR_SECTOID_SOLDIER
+    race: STR_SECTOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 10
+    deathSound: 10
+    intelligence: 3
+    aggression: 2
+    builtInWeapons:
+      - STR_PLASMA_RIFLE_SECTOID
+alienDeployments:
+  - type: STR_MEDIUM_SCOUT
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA_CLIP
+    width: 40
+    length: 40
+    height: 4
